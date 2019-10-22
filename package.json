@@ -2,7 +2,7 @@
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jannaten.github.io/mosnter-rolodex",
+  "homepage": "https://e8jnayem.github.io/mosnter-rolodex",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
