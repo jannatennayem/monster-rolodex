@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mosnter-rolodex/static/css/main.b2ea8435.chunk.css",
+    "main.js": "/mosnter-rolodex/static/js/main.90d6faea.chunk.js",
+    "main.js.map": "/mosnter-rolodex/static/js/main.90d6faea.chunk.js.map",
+    "runtime~main.js": "/mosnter-rolodex/static/js/runtime~main.58af9df8.js",
+    "runtime~main.js.map": "/mosnter-rolodex/static/js/runtime~main.58af9df8.js.map",
+    "static/js/2.2c8a6238.chunk.js": "/mosnter-rolodex/static/js/2.2c8a6238.chunk.js",
+    "static/js/2.2c8a6238.chunk.js.map": "/mosnter-rolodex/static/js/2.2c8a6238.chunk.js.map",
+    "index.html": "/mosnter-rolodex/index.html",
+    "precache-manifest.5c94da3b0d843e3225e0df3c3cc0deb6.js": "/mosnter-rolodex/precache-manifest.5c94da3b0d843e3225e0df3c3cc0deb6.js",
+    "service-worker.js": "/mosnter-rolodex/service-worker.js",
+    "static/css/main.b2ea8435.chunk.css.map": "/mosnter-rolodex/static/css/main.b2ea8435.chunk.css.map"
+  }
+}
