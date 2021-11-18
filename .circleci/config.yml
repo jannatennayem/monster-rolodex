@@ -2,18 +2,25 @@
 version: 2.1
 
 jobs:
-  jannaten:
+  build:
     docker:
-      - image: circleci/ruby:2.4.1
+      - image: circleci/node:8.9
     steps:
       - checkout
-      - run: echo "Hello Masood"
-  masood:
+      - run: echo "npm installing"
+      - run: npm install
+      - run: CI=true npm run build
+  test:
     docker:
-      - image: circleci/ruby:2.4.1
+      - image: circleci/node:8.9
     steps:
       - checkout
-      - run: echo "Hello Jannaten"
+      - run: echo "testing stuff"
+      - run: npm install
+      - run: npm test
+  hither:
+    - checkout
+    - run: echo "HI THERE"
 workflows:
   version: 2.1
   jannaten_nayem:
