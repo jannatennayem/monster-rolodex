@@ -18,15 +18,20 @@ jobs:
       - run: echo "testing stuff"
       - run: npm install
       - run: npm test
-  hither:
-    - checkout
-    - run: echo "HI THERE"
+  hithere:
+    docker:
+      - image: circleci/node:8.9
+    steps:
+      - checkout
+      - run: echo "HI THERE"
 workflows:
   version: 2.1
-  jannaten_nayem:
+  build_test_lint:
     jobs:
-      - jannaten
-      - masood
+      - build
+      - test:
+        requires:
+          - hithere
 # Orbs are reusable packages of CircleCI configuration that you may share across projects, enabling you to create encapsulated, parameterized commands, jobs, and executors that can be used across multiple projects.
 # See: https://circleci.com/docs/2.0/orb-intro/
 # orbs:
